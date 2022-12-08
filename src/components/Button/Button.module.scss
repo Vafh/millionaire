@@ -1,0 +1,24 @@
+.button {
+  width: 288px;
+  height: 64px;
+  padding: 20px 24px;
+  border-radius: 12px;
+  background-color: var(--primary-btn);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--white);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--hover-btn);
+  }
+
+  &:active {
+    background-color: var(--active-btn);
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 296px;
+  }
+}

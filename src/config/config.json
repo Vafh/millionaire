@@ -1,0 +1,270 @@
+{
+  "testQuestions": {
+    "1": [
+      {
+        "question": "Which option is not a primitive data type in js?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "boolean"
+          },
+          {
+            "answer": "string"
+          },
+          {
+            "answer": "undefined"
+          },
+          {
+            "answer": "object"
+          }
+        ]
+      }
+    ],
+    "2": [
+      {
+        "question": "Which method accepts arguments separated by commas?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "none of the proposed methods"
+          },
+          {
+            "answer": ".call"
+          },
+          {
+            "answer": ".apply"
+          },
+          {
+            "answer": ".bind"
+          }
+        ]
+      }
+    ],
+    "3": [
+      {
+        "question": "Which operator is an abstract equality?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "<="
+          },
+          {
+            "answer": "=="
+          },
+          {
+            "answer": "==="
+          },
+          {
+            "answer": ">="
+          }
+        ]
+      }
+    ],
+    "4": [
+      {
+        "question": "Which variable is hoisted and can be initialized?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "let"
+          },
+          {
+            "answer": "var"
+          },
+          {
+            "answer": "const"
+          },
+          {
+            "answer": "undefined"
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "question": "In which version of JS did the constructor functions appear?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "ES4"
+          },
+          {
+            "answer": "ES5"
+          },
+          {
+            "answer": "ES6"
+          },
+          {
+            "answer": "ES7"
+          }
+        ]
+      }
+    ],
+    "6": [
+      {
+        "question": "What operator can we use to create a copy of the array?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "rest"
+          },
+          {
+            "answer": "forEach"
+          },
+          {
+            "answer": "spread"
+          },
+          {
+            "answer": "some"
+          }
+        ]
+      }
+    ],
+    "7": [
+      {
+        "question": "Which Git command sends the contents of a local repository to a remote repository?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "pull"
+          },
+          {
+            "answer": "checkout"
+          },
+          {
+            "answer": "commit"
+          },
+          {
+            "answer": "push"
+          }
+        ]
+      }
+    ],
+    "8": [
+      {
+        "question": "How to undo changes to the state of a local Git repository?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Git diff"
+          },
+          {
+            "answer": "Git status"
+          },
+          {
+            "answer": "Git reset"
+          },
+          {
+            "answer": "Git merge"
+          }
+        ]
+      }
+    ],
+    "9": [
+      {
+        "question": "Which command can be used to display the state of working directory and staging area?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Git reset"
+          },
+          {
+            "answer": "Git status"
+          },
+          {
+            "answer": "Git merge"
+          },
+          {
+            "answer": "Git diff"
+          }
+        ]
+      }
+    ],
+    "10": [
+      {
+        "question": "Select the value obtained by performing a numeric operation on a non-numeric value"
+      },
+      {
+        "answers": [
+          {
+            "answer": "null"
+          },
+          {
+            "answer": "undefined"
+          },
+          {
+            "answer": "Number"
+          },
+          {
+            "answer": "NaN"
+          }
+        ]
+      }
+    ],
+    "11": [
+      {
+        "question": "What is a State in React?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Object"
+          },
+          {
+            "answer": "Array"
+          },
+          {
+            "answer": "String"
+          },
+          {
+            "answer": "Higher-order component"
+          }
+        ]
+      }
+    ],
+    "12": [
+      {
+        "question": "What is better to do?"
+      },
+      {
+        "answers": [
+          {
+            "answer": "Backend"
+          },
+          {
+            "answer": "Frontend"
+          },
+          {
+            "answer": "Mobile development"
+          },
+          {
+            "answer": "Chemistry"
+          }
+        ]
+      }
+    ]
+  },
+  "correctAnswers": [
+    "object",
+    ".call",
+    "==",
+    "var",
+    "ES6",
+    "rest",
+    "push",
+    "Git reset",
+    "Git status",
+    "NaN",
+    "Object",
+    "Frontend"
+  ]
+}

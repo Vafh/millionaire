@@ -1,0 +1,136 @@
+.answerBox {
+  position: relative;
+  display: flex;
+  min-height: 23px;
+  width: 205px;
+  padding: 15px 0;
+  margin-bottom: 8px; 
+  background-color: var(--white);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-radius: 1px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 378px;
+    padding: 24.5px 0;
+
+    &:nth-child(odd) {
+      margin-right: 110px;
+    }
+
+    &:nth-child(1) {
+      margin-bottom: 32px;
+    }
+  
+    &:nth-child(2) {
+      margin-bottom: 32px;
+    }
+  }
+
+
+  &::before {
+    position: absolute;
+    top: 6px;
+    left: -22px;
+    content: "";
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 4px;
+    background-color: var(--white);
+    z-index: -1;
+
+    @media screen and (min-width: 1440px) {
+      top: 9px;
+      left: -27px;
+      width: 54px;
+      height: 54px;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    top: 6px;
+    right: -22px;
+    content: "";
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    border-top: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 4px;
+    background-color: var(--white);
+    z-index: -1;
+
+    @media screen and (min-width: 1440px) {
+      top: 9px;
+      right: -27px;
+      width: 54px;
+      height: 54px;
+    }
+  }
+}
+
+.answerVariant {
+  margin-right: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.16;
+  color: var(--primary-btn);
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: -73px;
+    content: '';
+    width: 41px;
+    height: 1px;
+    background-color: var(--border);
+
+    @media screen and (min-width: 1440px) {
+      left: -55px;
+      width: 17px;
+    }
+  }
+
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: -73px;
+    content: '';
+    width: 41px;
+    height: 1px;
+    background-color: var(--border);
+
+    @media screen and (min-width: 1440px) {
+      right: -55px;
+      width: 17px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.textAnswer {
+  max-height: 23px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.16;
+  color: var(--main-text);
+
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
+}
