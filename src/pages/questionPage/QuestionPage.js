@@ -68,7 +68,6 @@ export const QuestionPage = () => {
             index={index}
             currentQuestion={+questionNumber}
             setValue={setValue}
-            currentValue={currentValue}
           />
         )).reverse()}
       </ul>

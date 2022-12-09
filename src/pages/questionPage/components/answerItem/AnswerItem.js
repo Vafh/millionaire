@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import { VARIANTS } from "../../../../constants/constants";
 
@@ -10,3 +11,9 @@ export const AnswerItem = ({ answer, onClick, index }) => (
     <p className={styles.textAnswer}>{answer}</p>
   </li>
 );
+
+AnswerItem.propTypes = {
+  answer: PropTypes.string,
+  onClick: PropTypes.func,
+  index: PropTypes.number,
+};
